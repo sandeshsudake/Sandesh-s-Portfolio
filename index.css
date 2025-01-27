@@ -324,22 +324,57 @@ nav {
   color: #ffffff;
 }
 
+
+
+
+
+
 .about-section {
-color: white;
-text-align: center;
-padding: 40px 20px;
-font-family: 'Poppins', sans-serif;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .about-section h2 {
-font-size: 2rem;
-color: #00bcd4;
+  font-size: 2rem;
+  color: #00bcd4;
+  margin-bottom: 20px;
+}
+
+.about-section h3 {
+  font-size: 1.5rem;
+  color: #ffcc00;
+  margin-top: 20px;
 }
 
 .about-section p {
-font-size: 1.2rem;
-line-height: 1.8rem;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
 }
+
+.about-section ul {
+  list-style-type: square;
+  text-align: left;
+  margin: 0 auto;
+  display: inline-block;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .skills-section {
 padding: 40px 20px;
@@ -701,4 +736,3 @@ footer a:hover {
   color: #ff00ff; /* Change color on hover (neon pink or your preferred color) */
   transform: scale(1.1); /* Slight zoom effect on hover */
 }
-

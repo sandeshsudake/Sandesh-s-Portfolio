@@ -689,3 +689,16 @@ a.btn:hover, form button:hover {
 }
 
 
+
+
+footer a {
+  color: #00bcd4; /* Set initial link color to cyan (or any color you prefer) */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for color and transform */
+}
+
+footer a:hover {
+  color: #ff00ff; /* Change color on hover (neon pink or your preferred color) */
+  transform: scale(1.1); /* Slight zoom effect on hover */
+}
+

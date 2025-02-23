@@ -171,6 +171,9 @@ nav {
   cursor: pointer;
   text-decoration: none;
   transition: background-color 0.3s ease, transform 0.3s ease;
+  display: inline-block;
+  margin: 10px auto;
+  width: fit-content;
 }
 
 .hero .btn:hover {
@@ -200,8 +203,6 @@ nav {
     opacity: 1;
   }
 }
-
-
 
 
 
@@ -736,3 +737,11 @@ footer a:hover {
   color: #ff00ff; /* Change color on hover (neon pink or your preferred color) */
   transform: scale(1.1); /* Slight zoom effect on hover */
 }
+
+
+
+
+
+
+
+
